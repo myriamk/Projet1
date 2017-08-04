@@ -1,0 +1,5 @@
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Helpers\bin\Debug\Hermes.MyProfile.Helpers.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Helpers\bin\Debug\Hermes.MyProfile.Helpers.pdb
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Helpers\obj\Debug\Hermes.MyProfile.Helpers.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Helpers\obj\Debug\Hermes.MyProfile.Helpers.pdb
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Helpers\obj\Debug\Hermes.MyProfile.Helpers.csprojResolveAssemblyReference.cache
