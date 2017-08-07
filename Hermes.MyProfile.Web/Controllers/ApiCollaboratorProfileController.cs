@@ -14,6 +14,8 @@ using System.Web.Http;
 
 namespace Hermes.MyProfile.Web.Controllers
 {
+    
+    [Authorize]
     public class ApiCollaboratorProfileController : ApiController
     {
 

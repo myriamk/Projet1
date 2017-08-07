@@ -2,3 +2,6 @@ C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\bin\Debug\Hermes.MyProfile.Domai
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\bin\Debug\Hermes.MyProfile.Domain.pdb
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\obj\Debug\Hermes.MyProfile.Domain.dll
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\obj\Debug\Hermes.MyProfile.Domain.pdb
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\bin\Debug\Hermes.MyProfile.Helpers.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\bin\Debug\Hermes.MyProfile.Helpers.pdb
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Domain\obj\Debug\Hermes.MyProfile.Domain.csprojResolveAssemblyReference.cache

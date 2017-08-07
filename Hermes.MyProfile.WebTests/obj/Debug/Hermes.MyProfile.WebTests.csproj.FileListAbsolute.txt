@@ -175,3 +175,7 @@ C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\roslyn\vbc.exe.confi
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\roslyn\vbc.rsp
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\System.Web.Http.Owin.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.WebTests\bin\Debug\System.Web.Http.Owin.xml

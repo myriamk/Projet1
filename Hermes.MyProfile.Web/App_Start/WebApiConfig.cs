@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web.Http;
 using Unity.WebApi;
 using Hermes.MyProfile.Web.App_Start;
+using Microsoft.Owin.Security.OAuth;
+
 namespace Hermes.MyProfile.Web
 {
     public static class WebApiConfig
@@ -14,6 +16,9 @@ namespace Hermes.MyProfile.Web
             var container = UnityConfig.GetConfiguredContainer();
             config.DependencyResolver = new UnityResolver(container);
 
+            // Configure Web API to use only bearer token authentication.
+            //config.SuppressDefaultHostAuthentication();
+            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Configuration et services API Web
 

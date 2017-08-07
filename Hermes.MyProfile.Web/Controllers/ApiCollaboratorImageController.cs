@@ -20,6 +20,7 @@ using Hermes.MyProfile.Helpers;
 
 namespace Hermes.MyProfile.Web.Controllers
 {
+    [Authorize]
     public class ApiCollaboratorImageController : ApiController
     {
         private ICollaboratorProfileService _CollaboratorProfileService;

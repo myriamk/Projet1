@@ -189,3 +189,12 @@ C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Hermes.MyProfile.Domain.pdb
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Practices.Unity.Mvc.dll
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\WebActivatorEx.dll
 C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Owin.Cors.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\System.Web.Cors.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\System.Web.Http.Cors.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\System.Web.Http.Owin.dll
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Owin.Cors.xml
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\System.Web.Http.Cors.xml
+C:\Dev\Hermes.MyProfile\Hermes.MyProfile.Web\bin\System.Web.Http.Owin.xml

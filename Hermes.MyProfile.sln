@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.MyProfile.WebTests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.MyProfile.Domain", "Hermes.MyProfile.Domain\Hermes.MyProfile.Domain.csproj", "{2E9ED9C2-06E8-45A0-8030-7D695AC36060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.MyProfile.Owin", "Hermes.MyProfile.Owin\Hermes.MyProfile.Owin.csproj", "{D17AE651-6C31-48E9-923F-9CB2139FECB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2E9ED9C2-06E8-45A0-8030-7D695AC36060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E9ED9C2-06E8-45A0-8030-7D695AC36060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E9ED9C2-06E8-45A0-8030-7D695AC36060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17AE651-6C31-48E9-923F-9CB2139FECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17AE651-6C31-48E9-923F-9CB2139FECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17AE651-6C31-48E9-923F-9CB2139FECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17AE651-6C31-48E9-923F-9CB2139FECB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

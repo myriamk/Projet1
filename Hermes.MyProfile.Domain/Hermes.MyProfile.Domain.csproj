@@ -53,5 +53,11 @@
     <Compile Include="Entities\CollaboratorProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hermes.MyProfile.Helpers\Hermes.MyProfile.Helpers.csproj">
+      <Project>{aa8d89f0-10e8-4b51-be42-ad2328d363b7}</Project>
+      <Name>Hermes.MyProfile.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

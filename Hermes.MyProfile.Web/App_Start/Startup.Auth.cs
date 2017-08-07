@@ -12,6 +12,8 @@ using Microsoft.Owin.Security.OpenIdConnect;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Owin;
 using Hermes.MyProfile.Web.Models;
+using Microsoft.Owin.Security.OAuth;
+using Microsoft.Owin;
 
 namespace Hermes.MyProfile.Web
 {
@@ -23,7 +25,10 @@ namespace Hermes.MyProfile.Web
         private static string tenantId = ConfigurationManager.AppSettings["ida:TenantId"];
         private static string postLogoutRedirectUri = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
 
-        public static readonly string Authority = aadInstance + tenantId;
+        public static readonly string authority = aadInstance + tenantId;
+
+
+
 
         // This is the resource ID of the AAD Graph API.  We'll need this to request a token to call the Graph API.
         string graphResourceId = "https://graph.windows.net";
@@ -40,25 +45,29 @@ namespace Hermes.MyProfile.Web
                 new OpenIdConnectAuthenticationOptions
                 {
                     ClientId = clientId,
-                    Authority = Authority,
+                    Authority = authority,
                     PostLogoutRedirectUri = postLogoutRedirectUri,
 
                     Notifications = new OpenIdConnectAuthenticationNotifications()
                     {
                         // Si la réponse OpenID Connect contient un code, échangez-le contre un jeton d'accès et actualisez le jeton, puis rangez-les.
-                       AuthorizationCodeReceived = (context) => 
-                       {
-                           var code = context.Code;
-                           ClientCredential credential = new ClientCredential(clientId, appKey);
-                           string signedInUserID = context.AuthenticationTicket.Identity.FindFirst(ClaimTypes.NameIdentifier).Value;
-                           AuthenticationContext authContext = new AuthenticationContext(Authority, new ADALTokenCache(signedInUserID));
-                           AuthenticationResult result = authContext.AcquireTokenByAuthorizationCode(
-                           code, new Uri(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Path)), credential, graphResourceId);
+                        AuthorizationCodeReceived = (context) =>
+                        {
+                            var code = context.Code;
+                            ClientCredential credential = new ClientCredential(clientId, appKey);
+                            string signedInUserID = context.AuthenticationTicket.Identity.FindFirst(ClaimTypes.NameIdentifier).Value;
+                            AuthenticationContext authContext = new AuthenticationContext(authority, new ADALTokenCache(signedInUserID));
+                            AuthenticationResult result = authContext.AcquireTokenByAuthorizationCode(
+                            code, new Uri(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Path)), credential, graphResourceId);
 
-                           return Task.FromResult(0);
-                       }
+                            return Task.FromResult(0);
+                        }
                     }
                 });
         }
+
+
+        
+
     }
 }

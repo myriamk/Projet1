@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-
+using Hermes.MyProfile.Helpers;
 namespace Hermes.MyProfile.Domain.Entities
 {
     [DataContract]
@@ -31,6 +31,8 @@ namespace Hermes.MyProfile.Domain.Entities
        
         public ImageFormat ImageFormat { get => _imageFormat; set => _imageFormat = value; }
 
+        [DataMember]
+        public string FileExtension { get => _imageFormat.FileExtensionFromEncoder(); }
 
         public string ImageFormatStr { get => ImageFormat.ToString(); }
 
